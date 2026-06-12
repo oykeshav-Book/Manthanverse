@@ -7,98 +7,117 @@
 
 <style>
 body{
-  background:#0d1117;
-  color:white;
-  font-family:Arial,sans-serif;
-  margin:0;
+    margin:0;
+    font-family:Georgia,serif;
+    background:#ffffff;
+    color:#222;
+    line-height:1.8;
 }
 
 header{
-  text-align:center;
-  padding:60px 20px;
+    text-align:center;
+    padding:80px 20px 50px;
+    border-bottom:1px solid #ddd;
 }
 
 h1{
-  font-size:48px;
+    font-size:60px;
+    margin:0;
 }
 
 .tagline{
-  color:#b3b3b3;
+    color:#666;
+    font-size:20px;
+    margin-top:15px;
 }
 
-.search{
-  text-align:center;
-  margin:30px;
+nav{
+    text-align:center;
+    padding:20px;
 }
 
-.search input{
-  width:80%;
-  max-width:500px;
-  padding:15px;
-  border-radius:10px;
-  border:none;
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
 }
 
-.section{
-  padding:20px;
+.container{
+    max-width:800px;
+    margin:auto;
+    padding:40px 20px;
 }
 
-.card{
-  background:#161b22;
-  padding:20px;
-  margin:15px;
-  border-radius:12px;
+.article{
+    margin-bottom:50px;
 }
 
-a{
-  color:#58a6ff;
-  text-decoration:none;
+.article h2{
+    margin-bottom:10px;
+}
+
+.article p{
+    color:#555;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#888;
+    border-top:1px solid #ddd;
 }
 </style>
-
 </head>
 
 <body>
 
 <header>
-<h1>Manthanverse</h1>
-<p class="tagline">
-A living book of philosophy, stories, dialogues and questions.
-</p>
+    <h1>Manthanverse</h1>
+    <div class="tagline">
+        A living book of philosophy, stories, dialogues and questions.
+    </div>
 </header>
 
-<div class="search">
-<input type="text" placeholder="Search thoughts, stories and questions...">
+<nav>
+    <a href="#">Archive</a>
+    <a href="#">Dialogues</a>
+    <a href="#">Stories</a>
+    <a href="#">Questions</a>
+</nav>
+
+<div class="container">
+
+<div class="article">
+<h2>What is Happiness?</h2>
+<p>
+Most people spend their lives chasing happiness.
+But what if happiness is not something to chase,
+but something that appears when chasing stops?
+</p>
 </div>
 
-<div class="section">
-
-<div class="card">
-<h2>Archive</h2>
-<p>Essays, philosophy and timeless questions.</p>
+<div class="article">
+<h2>Why Do We Fear Death?</h2>
+<p>
+Death is certain, yet it remains humanity's deepest mystery.
+Perhaps we fear not death itself, but the loss of everything familiar.
+</p>
 </div>
 
-<div class="card">
-<h2>Minis</h2>
-<p>Short thoughts and quick reflections.</p>
-</div>
-
-<div class="card">
-<h2>Stories</h2>
-<p>Fictional stories exploring deeper ideas.</p>
-</div>
-
-<div class="card">
-<h2>Dialogues</h2>
-<p>Conversations between characters and minds.</p>
-</div>
-
-<div class="card">
-<h2>Dinner Table</h2>
-<p>Questions and answers from readers.</p>
+<div class="article">
+<h2>The Dinner Table</h2>
+<p>
+A short philosophical dialogue between strangers discussing truth,
+meaning and the stories we tell ourselves.
+</p>
 </div>
 
 </div>
+
+<footer>
+© 2026 Manthanverse
+</footer>
 
 </body>
-  </html>
+</html>
