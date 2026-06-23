@@ -48,6 +48,7 @@ nav a{
 max-width:1100px;
 margin:40px auto;
 padding:20px;
+position:relative;  
 }
 
 
@@ -99,6 +100,20 @@ filter:drop-shadow(0 0 10px rgba(255,255,255,0.12));
 transform:scale(1.05);
 }
 
+.hero-left{
+    position:absolute;
+    left:-80px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.hero-right{
+    position:absolute;
+    right:-80px;
+    top:50%;
+    transform:translateY(-50%);
+    }   
+
 .hero-center{
     flex:1;
     text-align:center;
@@ -141,7 +156,7 @@ transform:scale(1.05);
 
 <div class="hero-content">
 
-<div class="hero-side">
+<div class="hero-right">
 <img src="Scientist.png" alt="Scientist">
 </div>
 
@@ -169,7 +184,7 @@ And perhaps that's where every meaningful journey begins.
 
 </div>
 
-<div class="hero-side">
+<div class="hero-left">
 <img src="Pandit.png" alt="Pandit">
 </div>
 
