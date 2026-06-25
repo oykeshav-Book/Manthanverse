@@ -39,6 +39,43 @@ nav a{
 h1,h2{
     color:white;
 }
+.archive-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    padding:40px;
+}
+
+.archive-card{
+    background:#1c2a45;
+    border-radius:20px;
+    overflow:hidden;
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+.archive-card:hover{
+    transform:translateY(-8px);
+}
+
+.archive-card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    display:block;
+}
+
+.archive-card h2{
+    text-align:center;
+    margin:20px 0 10px;
+}
+
+.archive-card p{
+    text-align:center;
+    color:#cbd5e1;
+    padding:0 20px 25px;
+}    
 </style>
 
 </head>
