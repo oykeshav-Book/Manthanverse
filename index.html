@@ -300,6 +300,8 @@ color:#d6d6d6;
 <script>
 const music = document.getElementById("bgMusic");
 
+music.volume = 0.2;
+
 document.addEventListener("click", function () {
     music.play();
 }, { once: true });
