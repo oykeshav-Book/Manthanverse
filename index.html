@@ -297,7 +297,13 @@ color:#d6d6d6;
     
 </style>
 </head>
+<script>
+const music = document.getElementById("bgMusic");
 
+document.addEventListener("click", function () {
+    music.play();
+}, { once: true });
+</script>
 <body>
 <audio id="bgMusic" loop>
     <source src="Gitabani.mp3" type="audio/mpeg">
